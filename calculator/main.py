@@ -41,7 +41,7 @@ def calculator():
     continuation = input(f"Type 'y'  to continue caltulation with {answer1} or 'n' to exit ").lower()
     if continuation == "n":
       should_continue = False
-      os.system('clear')
+      os.system('cls')
       calculator()
     elif continuation == "y":
       num1 = answer1

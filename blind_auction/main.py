@@ -30,7 +30,7 @@ while not end_of_bids:
   if another_bidder == "no":
     end_of_bids = True
   if another_bidder == "yes":
-    os.system('clear')
+    os.system('cls')
 
   find_the_winner(all_bidders)
 
